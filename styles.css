@@ -6,7 +6,7 @@ body {
   background-color:F0FFF0;
   margin 40px;
   border: 5px dashed black;
-  padding: 25px 25px 25px 25px
+  padding: 25px;
   font-family: sans-serif;
 }
 
@@ -32,11 +32,20 @@ h3 {
   color: maroon;
 }
 
-p.bitches, madames, maidens {
+p.bitches, .madames, .Maidens {
   color: maroon;
   font-family: cursive;
+
 }
 
-{
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+}
 
+.image {
+  width: 200px;
+  height: 10%;
 }
